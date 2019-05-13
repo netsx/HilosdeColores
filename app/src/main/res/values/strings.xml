@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Hilos de Colores</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Catálogo</string>
+    <string name="title_notifications">Notificaciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="conexion_message">Se requiere una conexión Wifi o movíl.</string>
+    <string name="conexion_title">oops..</string>
+    <string name="fragmen_home_description">En hilos de colores podrás encontrar un basto surtido de diseños para tus prendas, si requieres un diseño personalizado, nosotros te lo diseñamos a tus necesidades, no esperes mas.</string>
+    <string name="fragment_home_costo">Costos y servicios</string>
+    <string name="fragmen_home_description_service">En hilos de colores contamos con servicio de diseño y ponchado a medida y bordado de personalizado de prendas a la medida</string>
+    <string name="fragmen_home_costo_desing">Costo por diseño</string>
+    <string name="fragmen_home_costo_desing_cost">$200.00 MX</string>
+    <string name="fragmen_home_costo_bordado">Costo por bordado</string>
+    <string name="fragmen_home_costo_desing_cost_bordado">$28.00 MX</string>
+    <string name="fragment_home_title_ubica">Ubicación y contacto</string>
+    <string name="call">Llamar</string>
+    <string name="fragmen_home_ubicacion">Ubicación</string>
+    <string name="telephone">5548809093</string>
+    <string name="ver">Ver</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="realizar_llamada">Realizar llamada</string>
+    <string name="contacto">Contacto</string>
+    <string name="email_contact">teresa_gocha@hotmail.com</string>
+    <string name="ubicacion">https://www.google.com.mx/maps/dir//Calle+Divisi%C3%B3n+del+Nte.+23,+Francisco+Villa,+54743+Cuautitl%C3%A1n+Izcalli,+M%C3%A9x./@19.627782,-99.2112178,17z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x85d21e0da6116af9:0x7e739ca2e26ddad6!2m2!1d-99.2090291!2d19.627782</string>
+    <string name="desing">Diseños</string>
+    <string name="favorites">Favoritos</string>
+    <string name="message_without_id">Categoria no disponible en este momento</string>
+    <string name="title_activity_galeria">Galeria</string>
+    <string name="error_id">Productos no  disponibles en este momento intente mas tarde</string>
+    <string name="low_channel_id">channel.id.notification.normal</string>
+    <string name="low_channel_name">channel.id.name</string>
+</resources>

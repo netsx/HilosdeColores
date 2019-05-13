@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingEnd="15dp"
+    android:paddingStart="15dp"
+
+    android:id="@+id/content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:orientation="vertical"
+                    android:padding="25dp">
+
+
+                    <TextView
+                        android:id="@+id/fragment_home_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25dp" />
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_gravity="center"
+                        android:src="@drawable/needle"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_description"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="@string/fragmen_home_description"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:orientation="vertical"
+                    android:padding="25dp">
+
+                    <TextView
+                        android:id="@+id/fragment_home_title_contacto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_home_costo"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_costos"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="@string/fragmen_home_description_service"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_costos_"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="@string/fragmen_home_costo_desing"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_costos_desing"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="@string/fragmen_home_costo_desing_cost"
+                        android:textColor="@color/colorPrimaryDark" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_costos_bordado"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="@string/fragmen_home_costo_bordado"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/fragment_home_costos_bordado_bordado"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="15dp"
+                        android:text="@string/fragmen_home_costo_desing_cost_bordado"
+                        android:textColor="@color/colorPrimaryDark" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:orientation="vertical"
+                    android:padding="25dp">
+
+                    <TextView
+                        android:id="@+id/fragment_home_title_ubicacion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fragment_home_title_ubica"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="25dp" />
+
+                    <Button
+                        android:id="@+id/button_categoria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:background="@android:color/white"
+                        android:minWidth="88dp"
+                        android:text="@string/ver"
+                        android:textColor="@color/colorPrimaryDark" />
+                </LinearLayout>
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

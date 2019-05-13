@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.core.hilosdecolores">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/needle"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name="common.FCMService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter
+
+
+                ><action android:name="com.google.firebase.MESSAGING_EVENT"></action> </intent-filter>
+
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3468022161217686~6807406224" />
+
+        <activity
+            android:name=".mainmodule.MainModule.view.Galeria"
+            android:label="@string/title_activity_galeria"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name="service.FCMservice"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".mainmodule.MainModule.view.Contacto"
+            android:label="@string/contacto"
+            android:parentActivityName=".mainmodule.MainModule.MainMenu"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.core.hilosdecolores.mainmodule.MainModule.MainMenu" />
+        </activity>
+        <activity
+            android:name=".mainmodule.MainModule.MainMenu"
+            android:label="@string/title_activity_main_menu" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
